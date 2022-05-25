@@ -1,0 +1,95 @@
+:root {
+    --montserrat-font: 'Montserrat', sans-serif;
+  }
+
+
+.hd{
+    width: 100%;
+    height: 4.813rem;
+    padding: 1.875rem 1.25rem 0;
+}
+
+.hd__nav{
+    max-width: 68.25rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hd__nav__top{
+    width: 185px;
+    height: 44.05px;
+    position: relative;
+}
+
+.hd__nav__logo{
+    width: inherit;
+    height: inherit;
+}
+
+.hd__nav__list{
+    width: 526.97px;
+    height: 38px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hd__nav__item{
+    width: 100%;
+    font-family: var(--montserrat-font);
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+}
+
+.hd__nav__label,
+.hd__nav__link{
+    padding: 0.625rem 0.75rem;
+    text-decoration: none;
+    color: #262c55;
+}
+
+.hd__nav__label,
+.hd__nav__title{
+    color: #262c55;
+}
+
+.hd__nav__link__desc,
+.hd__nav__dropdown{
+    display: none;
+}
+
+.hd__btn__box{
+    display: block;
+    width: 8.919rem;
+    height: 47px;
+    background: #eee;
+    padding: 15px 40px;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.hd__btn{
+    text-decoration: none;
+    color: #262c55;
+    font-family: var(--montserrat-font);
+    font-size: 0.875rem;
+}
+
+.payments__icon{
+    width: 42px;
+    height: 42px;
+}
+
+
+
+
+
+@media only screen and (max-width: 60.5rem){
+    /*Tablets [601px -> 1200px]*/
+}

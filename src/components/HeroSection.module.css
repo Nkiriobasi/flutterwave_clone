@@ -1,0 +1,100 @@
+:root {
+    --montserrat-font: 'Montserrat', sans-serif;
+    --kanit-font: 'Kanit', sans-serif;
+    --denim-color: #0A0E27;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+.hero{
+    width: 100%;
+    height: auto;
+    padding: 5.625rem 1.25rem;
+}
+
+.hero__wrapper{
+    max-width: 68.25rem;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero__info{
+    width: 50rem;
+    height: inherit;
+}
+
+.orColor{
+    color: #FB9129;
+}
+
+.hero__heading{
+    width: 100%;
+    height: 20.625rem;
+    font-size: 6.25rem;
+    font-family: var(--kanit-font);
+    font-weight: 900;
+    margin: 0 0 1.875rem;
+    line-height: 1.1;
+}
+
+.hero__subheading{
+    width: 38.125rem;
+    height: 64px;
+    font-size: 1.375rem;
+    font-family: var(--montserrat-font);
+    margin: 0 0 2.5rem;
+    line-height: 1.5;
+}
+
+.hero__ctas{
+    width: inherit;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.hero__btn{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 0.625rem;
+    padding: 21px 24px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center; 
+    font-family: var(--montserrat-font);
+    cursor: pointer;
+}
+
+.btn__primary{
+    width: 12.938rem;
+    background: var(--denim-color);
+    color: var(--white-color);
+    margin-right: 1.5rem;
+}
+
+.btn__secondary{
+    width: 9.153rem;
+    background: #eee;
+    color: var(--black-color);
+}
+
+.btn__label{
+    font-size: 0.875rem;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 56.25rem){
+    .hero__heading{
+        width: 100%;
+        height: 9.625rem;
+        font-size: 4.375rem;
+        margin: 0 0 1.875rem;
+        line-height: 1.1;
+    }
+    
+}
