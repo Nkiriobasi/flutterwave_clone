@@ -6,32 +6,35 @@
     --black-color: #000;
 }
 
+.orColor{
+    color: #FB9129;
+}
+
+
+
 .hero{
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 5.625rem 1.25rem;
 }
 
 .hero__wrapper{
     max-width: 68.25rem;
-    height: fit-content;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
 }
 
 .hero__info{
-    width: 50rem;
-    height: inherit;
-}
-
-.orColor{
-    color: #FB9129;
+    max-width: 50rem;
+    height: auto;
 }
 
 .hero__heading{
     width: 100%;
-    height: 20.625rem;
+    height: -moz-fit-content;
+    height: fit-content;
     font-size: 6.25rem;
     font-family: var(--kanit-font);
     font-weight: 900;
@@ -40,8 +43,9 @@
 }
 
 .hero__subheading{
-    width: 38.125rem;
-    height: 64px;
+    max-width: 38.125rem;
+    height: -moz-fit-content;
+    height: fit-content;
     font-size: 1.375rem;
     font-family: var(--montserrat-font);
     margin: 0 0 2.5rem;
@@ -49,7 +53,7 @@
 }
 
 .hero__ctas{
-    width: inherit;
+    width: 100%;
     display: inline-flex;
     justify-content: flex-start;
 }
@@ -63,7 +67,6 @@
     display: inline-flex;
     align-items: center;
     text-align: center; 
-    font-family: var(--montserrat-font);
     cursor: pointer;
 }
 
@@ -82,6 +85,8 @@
 
 .btn__label{
     font-size: 0.875rem;
+    font-weight: 600;
+    font-family: var(--montserrat-font);
     width: 100%;
 }
 
@@ -90,11 +95,25 @@
 
 @media only screen and (max-width: 56.25rem){
     .hero__heading{
-        width: 100%;
-        height: 9.625rem;
+        height: fit-content;
         font-size: 4.375rem;
-        margin: 0 0 1.875rem;
-        line-height: 1.1;
     }
     
+}
+
+
+@media only screen and (max-width: 37.5rem){
+    .hero__heading{
+        font-size: 3.125rem;
+        margin: 0 0 1.375rem;
+    }
+    
+    .hero__subheading{
+        font-size: 1.125rem;
+        margin: 0 0 2.125rem;
+    }
+
+    .hero__btn{
+        padding: 18px 21px;
+    }
 }
