@@ -14,13 +14,13 @@
 
 .hero{
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 5.625rem 1.25rem;
 }
 
 .hero__container{
     max-width: 68.25rem;
-    height: 100%;
+    height: inherit;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
@@ -28,7 +28,7 @@
 
 .hero__info{
     max-width: 50rem;
-    height: auto;
+    height: inherit;
 }
 
 .hero__heading{
@@ -93,7 +93,7 @@
 
 
 
-@media only screen and (max-width: 56.25rem){
+@media only screen and (max-width: 900px){
     .hero__heading{
         height: fit-content;
         font-size: 4.375rem;
@@ -102,7 +102,11 @@
 }
 
 
-@media only screen and (max-width: 37.5rem){
+@media only screen and (max-width: 600px){
+    .hero{
+        padding: 5.125rem 1.25rem;
+    }
+
     .hero__heading{
         font-size: 3.125rem;
         margin: 0 0 1.375rem;
@@ -115,5 +119,34 @@
 
     .hero__btn{
         padding: 18px 21px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .hero{
+        padding: 4.5rem 1.25rem;
+    }
+
+    .hero__heading{
+        font-size: 2.25rem;
+    }
+
+    .hero__subheading{
+        font-size: 1rem;
+    }
+
+    .hero__ctas{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__btn{
+        width: 100%;
+    }
+
+    .btn__primary{
+        margin-bottom: 1.5rem;
+        margin-right: 0;
     }
 }
