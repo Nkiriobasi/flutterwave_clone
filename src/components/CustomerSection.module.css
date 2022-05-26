@@ -1,0 +1,87 @@
+:root {
+    --montserrat-font: 'Montserrat', sans-serif;
+    --kanit-font: 'Kanit', sans-serif;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+.customer{
+    width: 100%;
+    height: 100%;
+    margin: -9.375rem 0 0;
+    padding: 10rem 0 5rem;
+}
+
+.customer__container{
+    max-width: 105rem;
+    margin: 0 auto;
+}
+
+.customer__grid{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 47rem;
+    align-items: flex-start;
+    gap: 4em;
+}
+
+.grid__item{
+    height: inherit;
+}
+
+.grid__item:nth-child(1){
+    max-width: 58.875rem;
+}
+
+.grid__item:nth-child(2){
+    margin: -11.875rem 0 0;
+    width: 42.063rem;
+    height: 55.125rem;
+}
+
+.customer__img{
+    object-fit: cover;
+    object-position: center;
+    height: inherit;
+    width: 100%;
+}
+
+.yanga__img{
+    height: 42.5rem;
+    max-width: inherit;
+}
+
+.customer__grid__text{
+    max-width: 23.75rem;
+    line-height: 1.3;
+    font-size: 1.25rem;
+    font-family: var(--montserrat-font);
+    margin: 4.375rem 0 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 56.25rem){
+    .customer{
+        height: 49.375rem;
+    }
+
+    .customer__grid{
+        height: 34.375rem;
+    }
+    
+    .grid__item:nth-child(2){
+        height: fit-content;
+    }
+
+    .yanga__img{
+        height: 31.25rem;
+    } 
+}
+
+@media only screen and (max-width: 50rem){
+    
+}

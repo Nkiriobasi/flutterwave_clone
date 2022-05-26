@@ -5,7 +5,7 @@ import styles from './HeroSection.module.css';
 const HeroSection = () => {
   return (
     <section className={styles.hero}>
-        <div className={styles.hero__wrapper}>
+        <div className={styles.hero__container}>
             <div className={styles.hero__info}>
                 <h1 className={styles.hero__heading}> <span className={styles.orColor}>Endless possibilities</span> for every business</h1>
                 <p className={styles.hero__subheading}>Sell online, process payments, build financial products, 
