@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './CustomerSection.module.css';
+import styles from './Customer.module.css';
 
-const CustomerSection = () => {
+const Customer = () => {
   return (
     <section className={styles.customer}>
         <div className={styles.customer__container}>
@@ -21,6 +21,6 @@ const CustomerSection = () => {
   )
 }
 
-export default CustomerSection;
+export default Customer;
 
       
