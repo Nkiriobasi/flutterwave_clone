@@ -40,6 +40,7 @@ span{
 .businesses__list{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     width: auto;
     height: auto;
@@ -48,6 +49,7 @@ span{
 
 .business{
     padding: 1.25rem 1.625rem;
+    height: fit-content;
     line-height: 1;
 }
 
