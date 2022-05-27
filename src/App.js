@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
+import Hero from "./components/Hero";
 import Businesses from "./components/Businesses";
 
 function App() {
   return (
     <main className="App">
       <Navbar />
-      <HeroSection />
+      <Hero />
       <Businesses />
     </main>
   );
