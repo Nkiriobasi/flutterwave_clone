@@ -27,8 +27,8 @@
     font-size: 5rem;
     font-family: var(--kanit-font);
     font-weight: 900;
-    width: 40.625rem;
-    height: auto;
+    max-width: 40.625rem;
+    height: fit-content;
     line-height: 1.1;
     margin: 0 0 3.625rem;
 }
@@ -37,7 +37,7 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 4rem;
 }
 
@@ -83,10 +83,11 @@
 }
 
 .payment__img{
-    max-width: 320px;
-    height: auto;
     object-fit: contain;
     filter: drop-shadow(0 4px 20px rgba(0,0,0,.2));
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
 }
 
 .btn__block{
@@ -116,6 +117,10 @@
 
 
 @media only screen and (max-width: 900px){
+    .payment{
+        padding: 8.125rem 1.25rem 10rem;
+    }
+
     .h1{
         font-size: 3.125rem;
     }
@@ -124,5 +129,29 @@
         display: flex;
         flex-direction: column;
         gap: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .payment{
+        padding: 6.25rem 1.25rem;
+    }
+
+    .h1{
+        max-width: 34.375rem;
+        font-size: 2.25rem;
+    }
+
+    .payment__grid{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .payment{
+        padding: 4.375rem 1.25rem;
     }
 }
