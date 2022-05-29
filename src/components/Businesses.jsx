@@ -6,7 +6,7 @@ const Businesses = () => {
     <section className={styles.businesses}>
       <div className={styles.container}>
         <div className={styles.businesses__content}>
-          <p className={styles.businesses__intro}>We are trusted by <span>1 Million+</span> businesses</p>
+          <p className={styles.businesses__intro}>We are trusted by <span className={styles.alt}>1 Million+</span> businesses</p>
 
           <div className={styles.businesses__list}>
             <div className={styles.business}>

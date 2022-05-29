@@ -14,7 +14,9 @@ body{
     overflow-x: hidden;
 }
 
-section{
-    background-color: #fff;
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 

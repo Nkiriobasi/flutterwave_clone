@@ -20,7 +20,6 @@
 
 .hero__container{
     max-width: 68.25rem;
-    height: inherit;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
