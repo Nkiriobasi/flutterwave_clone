@@ -25,7 +25,7 @@ const Commerce = () => {
                 
                 {/* Section Section */}
                 <div className={styles.item}>
-                    <div className={styles.image__wrapper1}>
+                    <div className={styles.image__wrapper}>
                         <img src="https://cdn.filestackcontent.com/resize=width:1100/output=format:webp/bkgNvkPuRLyYGNqXNFGP" alt="creator" />
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Commerce = () => {
             <div className={[styles.commerce__grid, styles.commerce__grid__alt].join(' ')}>
                 {/* First Section */}
                 <figure className={styles.figure}>
-                    <div className={styles.image__wrapper2}>
+                    <div className={styles.image__wrapper}>
                         <img src="https://cdn.filestackcontent.com/resize=width:700/output=format:webp/lc5K7jXVQiS9jBWmcdKg" alt="creator" />
                     </div>
                     <figcaption className={styles.figurecaption}>A platform for you, whether you're a big business or a   

@@ -76,12 +76,7 @@
     width: inherit;
 }
 
-.image__wrapper1{
-    max-width: 100%;
-    height: auto;
-}
-
-.image__wrapper2{
+.image__wrapper{
     max-width: 100%;
     height: auto;
 }
@@ -211,9 +206,17 @@
         margin: 0 0 1rem;
     }
 
+    .commerce__grid:nth-child(2){
+        margin: 0 0 4.375rem;
+    }
+
     .commerce__description{
         font-size: 1rem;
         margin: 0 0 1.625rem;
+    }
+
+    .grid__item:nth-child(1){
+        margin: 0 0 4.375rem;
     }
 
     .commerce__para__wrapper{
