@@ -4,6 +4,7 @@ import Businesses from "./components/Businesses";
 import Payment from "./components/Payment";
 import Commerce from "./components/Commerce";
 import Customer from "./components/Customer";
+import DarkCard from "./components/DarkCard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Businesses />
       <Payment />
       <Commerce />
+      <DarkCard />
     </main>
   );
 }
