@@ -73,7 +73,7 @@
     width: 12.938rem;
     background: var(--denim-color);
     color: var(--white-color);
-    margin-right: 1.5rem;
+    margin: 0 1.5rem 0 0;
 }
 
 .btn__secondary{
@@ -96,6 +96,22 @@
     .hero__heading{
         height: fit-content;
         font-size: 4.375rem;
+    }
+
+    .hero__ctas{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn__primary{
+        margin: 0 0 1.5rem;
+    }
+
+    .btn__secondary{
+        width: 12.938rem;
     }
     
 }
