@@ -1,11 +1,3 @@
-:root {
-    --montserrat-font: 'Montserrat', sans-serif;
-    --kanit-font: 'Kanit', sans-serif;
-    --denim-color: #0A0E27;
-    --white-color: #fff;
-    --orange-color: #FB9129;
-}
-
 .orColor{
     color: var(--orange-color);
 }

@@ -1,12 +1,5 @@
-:root {
-    --montserrat-font: 'Montserrat', sans-serif;
-    --kanit-font: 'Kanit', sans-serif;
-    --denim-color: #0A0E27;
-    --white-color: #fff;
-}
-
 .grColor{
-    color: #35A162;
+    color: var(--green-color);
 }
 
 .commerce{
