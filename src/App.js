@@ -7,6 +7,7 @@ import Customer from "./components/Customer";
 import DarkCard from "./components/DarkCard";
 import Apis from "./components/Apis";
 import GlobalReach from "./components/GlobalReach";
+import Cl from "./components/Cl";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <DarkCard />
       <Apis />
       <GlobalReach />
+      <Cl />
     </main>
   );
 }
