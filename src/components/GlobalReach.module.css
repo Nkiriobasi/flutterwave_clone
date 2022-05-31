@@ -1,7 +1,6 @@
 .blColor{
     color: var(--blue-color);
     display: inline-block;
-    height: inherit;
 }
 
 .global__reach{

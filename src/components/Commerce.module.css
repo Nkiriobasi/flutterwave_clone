@@ -1,5 +1,6 @@
 .grColor{
     color: var(--green-color);
+    display: inline-block;
 }
 
 .commerce{

@@ -1,5 +1,6 @@
 .blColor{
     color: var(--blue-color);
+    display: inline-block;
 }
 
 .dark__card{
