@@ -6,6 +6,7 @@ import Commerce from "./components/Commerce";
 import Customer from "./components/Customer";
 import DarkCard from "./components/DarkCard";
 import Apis from "./components/Apis";
+import GlobalReach from "./components/GlobalReach";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Commerce />
       <DarkCard />
       <Apis />
+      <GlobalReach />
     </main>
   );
 }
