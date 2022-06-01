@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Cl.module.css';
+import styles from './cl.module.css';
 import { Link } from 'react-router-dom';
 
 const Cl = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Commerce.module.css';
+import styles from './commerce.module.css';
 import { Link } from 'react-router-dom';
 
 const Commerce = () => {

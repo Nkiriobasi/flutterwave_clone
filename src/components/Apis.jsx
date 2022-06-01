@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Apis.module.css';
+import styles from './apis.module.css';
 import { Link } from 'react-router-dom';
 
 const Apis = () => {

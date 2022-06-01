@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Navbar.module.css';
+import styles from './navbar.module.css';
 import { Link } from "react-router-dom";
 import img1 from '../assets/payment-method.svg';
 import img2 from '../assets/send-money.svg';

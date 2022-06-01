@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Payment.module.css';
+import styles from './payment.module.css';
 
 const Payment = () => {
   return (
