@@ -8,6 +8,7 @@ import DarkCard from "./components/DarkCard";
 import Apis from "./components/Apis";
 import GlobalReach from "./components/GlobalReach";
 import Cl from "./components/Cl";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       <Apis />
       <GlobalReach />
       <Cl />
+      <Footer />
     </main>
-  );
+  )
 }
 
 export default App;
