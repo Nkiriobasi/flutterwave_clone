@@ -25,29 +25,35 @@
     border-bottom: 1px solid #f3f3f3;
 }
 
-.ft__section{
+.ft__group:first-child .ft__section{
     width: 100%;
+    height: auto;
 }
 
 .ft__section__head{
     width: 100%;
-    height: 24px;
+    height: auto;
+    line-height: 1.2;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin: 0 0 1.125rem;
 }
 
 .ft__section__title{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0.125rem;
 }
 
 .ft__nav{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 0 0 2.5rem;
 }
 
@@ -66,20 +72,15 @@
     color: rgba(10, 153, 189, 0.9);
 }
 
-.ft__group--alt{
-    width: 100%;
-    height: auto;
-}
-
-.ft__group--alt .ft__section{
-    width: fit-content;
+.ft__group__alt{
+    display: flex;
+    align-items: center;
+    line-height: 1.8;
 }
 
 .ft__nav__inline{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
     padding: 0;
 }
 
@@ -189,4 +190,10 @@ button{
 
 .country__name{
     font-family: var(--montserrat-font);
+}
+
+.ft__text{
+    font-size: 0.875rem;
+    font-family: var(--montserrat-font);
+    padding: 2px;
 }
