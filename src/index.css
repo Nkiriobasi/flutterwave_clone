@@ -1,36 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700;800;900&family=Montserrat:wght@200;300;400;500;600&display=swap');
 
-
-:root {
-    --montserrat-font: 'Montserrat', sans-serif;
-    --kanit-font: 'Kanit', sans-serif;
-    --denim-color: #0A0E27;
-    --white-color: #fff;
-    --black-color: #1d1d1d;
-    --orange-color: #FB9129;
-    --green-color: #35A162;
-    --blue-color: #6672C7;
-}
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-}
-
-body{
-    font-size: 100%;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
 
 
 
