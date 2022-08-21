@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero, Customers } from '../../container';
+import { Header, Hero, Customers, Businesses } from '../../container';
 
 const LandingRoute = () => {
   return (
@@ -9,6 +9,7 @@ const LandingRoute = () => {
         <main id='home'>
           <Hero />
           <Customers />
+          <Businesses />
         </main>
     </>
   );

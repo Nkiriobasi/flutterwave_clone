@@ -1,0 +1,34 @@
+.section__businesses{
+    padding: 3.75rem 1.25rem;
+
+    .businesses__wrapper{
+        max-width: 68.25rem;
+        margin: 0 auto;
+
+        .businesses__intro{
+            font-size: 1.375rem;
+            font-family: var(--normal-font);
+
+            @media screen and (max-width: 37.5rem){
+                font-size: 1.25rem;
+            }
+        }
+
+        .businesses__list{
+            margin: 0 -25px;
+
+            .business__logo{
+                width: auto;
+                height: 35px;
+
+                @media screen and (max-width: 48rem){
+                    height: 25px;
+                }
+
+                @media screen and (max-width: 37.5rem){
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

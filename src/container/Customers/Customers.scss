@@ -37,11 +37,11 @@
             }
 
             .customer__img1{
-                height: 752px;
+                height: 47rem;
                 object-fit: cover;
 
                 @media screen and (max-width: 56.25rem){
-                    height: 550px;
+                    height: 34.375rem;
                 }
 
                 @media screen and (max-width: 48rem){
@@ -50,11 +50,11 @@
             }
 
             .customer__img2{
-                height: 680px;
+                height: 42.5rem;
                 object-fit: cover;
 
                 @media screen and (max-width: 56.25rem){
-                    height: 500px;
+                    height: 31.25rem;
                 }
 
                 @media screen and (max-width: 48rem){
