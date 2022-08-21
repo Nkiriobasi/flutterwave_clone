@@ -19,7 +19,7 @@ const Hero = () => {
 
           <div className="hero__ctas flex items-center justify-start">
             <div className="hero__cta">
-              <Link to='/contact-sales' className='btn btn-tertiary'>
+              <Link to='/contact-sales' className='btn btn-secondary btn-md'>
                 <span className="btn__label">Contact Sales</span>
               </Link>
             </div>
