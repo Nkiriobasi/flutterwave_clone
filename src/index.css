@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
+:root {
+    --heading-font: 'Kanit', sans-serif;
+    --normal-font: 'Montserrat', sans-serif;
+  
+    --black-color: #000000;
+    --white-color: #ffffff;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 

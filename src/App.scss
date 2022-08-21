@@ -1,0 +1,28 @@
+.c-or{
+    color: #fb9129;
+}
+
+.btn{
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all .3s ease;
+    text-align: center;
+    line-height: 19px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 21px 24px;
+    letter-spacing: -0.05em;
+}
+
+.btn-tertiary{
+    background-color: #eee;
+    color: var(--black-color);
+}
+
+
+.section{
+    background-color: var(--white-color);
+    color: #1D1D1D;
+}

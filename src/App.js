@@ -1,8 +1,13 @@
 import './App.scss';
+import RoutesConfig from './RoutesConfig/RoutesConfig';
 
 function App() {
   return (
-    <main className="App"></main>
+    <div className="App">
+      <div>
+        <RoutesConfig />
+      </div>
+    </div>
   )
 }
 

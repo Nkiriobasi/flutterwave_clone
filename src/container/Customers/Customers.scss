@@ -1,0 +1,83 @@
+.section__customers{
+    padding: 10rem 0 5rem;
+    margin-top: -9.375rem;
+
+    @media screen and (max-width: 48rem){
+        margin-top: 0;
+        padding: 0 20px 30px;
+    }
+
+    .customers__wrapper{
+        max-width: 1680px;
+        margin: 0 auto;
+
+        .customer__grid{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            font-family: var(--normal-font);
+
+            @media screen and (max-width: 48rem){
+                flex-direction: column;
+            }
+
+            .customer__grid-section1{
+                @media screen and (max-width: 48rem){}
+            }
+
+            .customer__grid-section2{
+                margin-top: -200px;
+
+                @media screen and (max-width: 48rem){
+                    margin-top: 0;
+                    display: flex;
+                    flex-direction: column-reverse;
+                }
+            }
+
+            .customer__img1{
+                height: 752px;
+                object-fit: cover;
+
+                @media screen and (max-width: 56.25rem){
+                    height: 550px;
+                }
+
+                @media screen and (max-width: 48rem){
+                    height: auto;
+                }
+            }
+
+            .customer__img2{
+                height: 680px;
+                object-fit: cover;
+
+                @media screen and (max-width: 56.25rem){
+                    height: 500px;
+                }
+
+                @media screen and (max-width: 48rem){
+                    height: auto;
+                }
+            }
+
+            .customer__name{
+                letter-spacing: -0.03em;
+            }
+
+            .customer__grid-section-text{
+                margin-top: 74px;
+                max-width: 23.75rem;
+                line-height: 1.4;
+
+                @media screen and (max-width: 48rem){
+                    margin-top: 0;
+                    margin-bottom: 30px;
+                    margin-top: 30px;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
