@@ -6,7 +6,7 @@ import './Hero.scss';
 const Hero = () => {
   return (
     <section className='hero w-full h-auto'>
-      <div className="hero__wrapper flex justify-between items-start flex-wrap">
+      <div className="wrapper flex justify-between items-start flex-wrap">
 
         <div className="hero__info">
           <h4 className="hero__heading font-medium">

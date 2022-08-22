@@ -5,7 +5,7 @@ import './Businesses.scss';
 const Businesses = () => {
   return (
     <section className='section section__businesses w-full h-auto'>
-        <div className="businesses__wrapper">
+        <div className="wrapper">
             <div>
                 <p className="businesses__intro mb-5 font-medium">Wea are trusted by <b>1 Million+</b> businesses</p>
                 <div className="businesses__list flex items-center flex-wrap justify-start">

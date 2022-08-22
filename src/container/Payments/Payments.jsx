@@ -8,7 +8,7 @@ import { FaChevronRight } from "react-icons/fa";
 const Payments = () => {
   return (
     <section className='section section__payments w-full h-auto'>
-        <div className="payments__wrapper">
+        <div className="wrapper">
           <h2 className="h1 payments__h1">A fully unified set of <span className="c-or">payments tools</span></h2>
 
           <div className="features-grid">

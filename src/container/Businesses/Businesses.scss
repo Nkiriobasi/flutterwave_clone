@@ -9,41 +9,37 @@
         padding: 1.875rem 1.25rem;
     }
 
-    .businesses__wrapper{
-        max-width: 68.25rem;
-        margin: 0 auto;
 
-        .businesses__intro{
-            font-size: 1.375rem;
-            font-family: var(--normal-font);
+    .businesses__intro{
+        font-size: 1.375rem;
+        font-family: var(--normal-font);
 
-            @media screen and (max-width: 37.5rem){
-                font-size: 1.25rem;
-            }
+        @media screen and (max-width: 37.5rem){
+            font-size: 1.25rem;
+        }
+    }
+
+    .businesses__list{
+        margin: 0 -25px;
+
+        @media screen and (max-width: 48rem){
+            margin: 0 -22px;
         }
 
-        .businesses__list{
-            margin: 0 -25px;
+        @media screen and (max-width: 37.5rem){
+            margin: 0 -18px;
+        }
+
+        .business__logo{
+            width: auto;
+            height: 35px;
 
             @media screen and (max-width: 48rem){
-                margin: 0 -22px;
+                height: 25px;
             }
 
             @media screen and (max-width: 37.5rem){
-                margin: 0 -18px;
-            }
-
-            .business__logo{
-                width: auto;
-                height: 35px;
-
-                @media screen and (max-width: 48rem){
-                    height: 25px;
-                }
-
-                @media screen and (max-width: 37.5rem){
-                    height: 20px;
-                }
+                height: 20px;
             }
         }
     }

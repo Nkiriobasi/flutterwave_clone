@@ -2,6 +2,7 @@
     background-color: #f8fafd;
     color: var(--primary-text-color);
     padding: 10rem 1.25rem;
+    font-family: var(--normal-font);
 
     @media screen and (max-width: 48rem){
         padding: 6.25rem 1.25rem;
@@ -12,10 +13,6 @@
     }
     
 
-    .commerce__wrapper{
-        max-width: 68.25rem;
-        margin: 0 auto;
-        font-family: var(--normal-font);
 
         .commerce__h1{
             margin-bottom: 108px;
@@ -154,5 +151,4 @@
                 margin-bottom: 40px;
             }
         }
-    }
 }

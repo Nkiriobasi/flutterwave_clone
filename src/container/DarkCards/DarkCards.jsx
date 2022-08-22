@@ -10,7 +10,7 @@ const DarkCards = () => {
                 Create physical and virtual
                 <span className="c-pp"> cards </span>
             </h2>
-            <p className="dark-card__p">
+            <p className="p dark-card__p">
                 Issue physical and virtual cards that work globally. 
                 Create, launch, and manage your cards easily from anywhere.
             </p>
