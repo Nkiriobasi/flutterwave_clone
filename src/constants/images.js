@@ -8,7 +8,7 @@ import eu from '../assets/eu.svg';
 import full from '../assets/full.svg';
 import gb from '../assets/gb.svg';
 import gh from '../assets/gh.svg';
-import globe from '../assets/globe.png';
+import globalReach from '../assets/global-reach-image.png';
 import ke from '../assets/ke.svg';
 import microsoftImg from '../assets/microsoft-img.webp';
 import microsoft from '../assets/microsoft.svg';
@@ -42,7 +42,7 @@ export default {
     full,
     gb,
     gh,
-    globe,
+    globalReach,
     ke,
     microsoftImg,
     microsoft,
