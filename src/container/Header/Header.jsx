@@ -7,7 +7,7 @@ import { FaEquals, FaTimes, FaFontAwesomeFlag, FaCcVisa, FaPiedPiperSquare, FaSh
 const Header = () => {
   return (
     <header className='hd'>
-        <nav className='hd__nav'>
+        <nav className='hd__nav wrapper'>
             {/* firstchild */}
             <div className="hd__nav__top flex flex-row items-center justify-between">
                 <Link to="/"><img src={images.full} alt="logo" className='hd__nav__logo' /></Link>

@@ -4,7 +4,7 @@ import './Customers.scss';
 
 const Customers = () => {
   return (
-    <section className='section section__customers'>
+    <section className='section__customers'>
         <div className="customers__wrapper">
 
             <div className="customer__grid gap-x-16">

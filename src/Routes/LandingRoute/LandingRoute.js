@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero, Customers, Businesses, Payments, Commerce, DarkCards, DevApi } from '../../container';
+import { Header, Hero, Customers, Businesses, Payments, Commerce, DarkCards, DevApi, GlobalReach } from '../../container';
 
 const LandingRoute = () => {
   return (
@@ -14,6 +14,7 @@ const LandingRoute = () => {
           <Commerce />
           <DarkCards />
           <DevApi />
+          <GlobalReach />
         </main>
     </>
   );

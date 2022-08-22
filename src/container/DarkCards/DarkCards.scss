@@ -1,15 +1,6 @@
 .section__dark-card{
     color: var(--white-color);
     background-color: var(--primary-text-color);
-    padding: 10rem 1.25rem;
-
-    @media screen and (max-width: 48rem){
-        padding: 6.25rem 1.25rem;
-    }
-
-    @media screen and (max-width: 37.5rem){
-        padding: 4.375rem 1.25rem;
-    }
 
     
     .dark-card__wrapper{

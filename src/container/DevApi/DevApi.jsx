@@ -4,7 +4,7 @@ import './DevApi.scss';
 
 const DevApi = () => {
   return (
-    <section className='section__api'>
+    <section className='section section__api'>
         <div className="wrapper">
             <h2 className="h1 api__h1">
                 Well documented and easy-to-use<span className="c-dark-pk"> APIs </span>

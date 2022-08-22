@@ -7,7 +7,7 @@ import { FaChevronRight } from "react-icons/fa";
 
 const Commerce = () => {
   return (
-    <section className='section__commerce'>
+    <section className='section section__commerce'>
         <div className="wrapper">
             <h2 className="h1 commerce__h1">
                 Build a successful online business with our

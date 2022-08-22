@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const DarkCards = () => {
   return (
-    <section className='section__dark-card'>
+    <section className='section section__dark-card'>
         <div className="dark-card__wrapper">
             <h2 className="h1 dark-card__h1">
                 Create physical and virtual

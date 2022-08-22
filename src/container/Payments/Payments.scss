@@ -1,5 +1,7 @@
 .section__payments{
     padding: 168px 20px 160px;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
 
     @media screen and (max-width: 56.25rem){
         padding: 130px 20px 160px;
