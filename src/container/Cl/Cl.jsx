@@ -17,7 +17,7 @@ const Cl = () => {
                 </p>
                 <div className="cl__ctas flex justify-start items-center flex-wrap"> 
                     <div className="cl__cta">
-                        <Link to="/contact-sales" class="btn btn-inline text-white">
+                        <Link to="/contact-sales" className="btn btn-inline text-white">
                             <span className="btn__label">Contact sales</span> 
                             <FaChevronRight className='btn__icon mt-0.5' />
                         </Link>

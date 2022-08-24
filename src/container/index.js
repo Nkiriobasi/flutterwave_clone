@@ -8,3 +8,4 @@ export { default as DarkCards } from './DarkCards/DarkCards';
 export { default as DevApi } from './DevApi/DevApi';
 export { default as GlobalReach } from './GlobalReach/GlobalReach';
 export { default as Cl } from './Cl/Cl';
+export { default as Footer } from './Footer/Footer';
