@@ -26,7 +26,7 @@ const Header = () => {
                     <ul className="hd__nav__dropdown">
                         <li className="hd__nav__dropdown__item h-1/3 w-full">
                             <Link to='/collect-payments' className='hd__nav__link flex justify-start items-start py-2.5 px-2.5'>
-                                <div className='mr-2.5'><FaFontAwesomeFlag className='hd__nav__link__icon w-10 h-10' /></div>
+                                <div className='mr-2.5 bg-pink-100 rounded-xl p-2'><FaFontAwesomeFlag className='hd__nav__link__icon w-6 h-6' /></div>
                                 <span className="hd__nav__link__info flex flex-col justify-start items-stretch flex-auto">
                                     <span className='hd__nav__link__title font-semibold mb-1.5'>Collect payments</span>
                                     <span className='hd__nav__link__desc font-normal text-xs'>Collect payments in 30+ currencies</span>
@@ -35,7 +35,7 @@ const Header = () => {
                         </li>
                         <li className="hd__nav__dropdown__item h-1/3 w-full">
                             <Link to='/send-money' className='hd__nav__link flex justify-start items-start py-2.5 px-2.5'>
-                                <div className='mr-2.5'><FaCcVisa className='hd__nav__link__icon w-10 h-10' /></div>
+                                <div className='mr-2.5 bg-blue-100 rounded-xl p-2'><FaCcVisa className='hd__nav__link__icon w-6 h-6' /></div>
                                 <span className="hd__nav__link__info flex flex-col justify-start items-stretch flex-auto">
                                     <span className='hd__nav__link__title font-semibold mb-1.5'>Send money</span>
                                     <span className='hd__nav__link__desc font-normal text-xs'>Send money to anyone or business globally.</span>
@@ -44,7 +44,7 @@ const Header = () => {
                         </li>
                         <li className="hd__nav__dropdown__item h-1/3 w-full">
                             <Link to='/checkout' className='hd__nav__link flex justify-start items-start py-2.5 px-2.5'>
-                                <div className='mr-2.5'><FaPiedPiperSquare className='hd__nav__link__icon w-10 h-10' /></div>
+                                <div className='mr-2.5 bg-pink-100 rounded-xl p-2'><FaPiedPiperSquare className='hd__nav__link__icon w-6 h-6' /></div>
                                 <span className="hd__nav__link__info flex flex-col justify-start items-stretch flex-auto">
                                     <span className='hd__nav__link__title font-semibold mb-1.5'>Checkout demo</span>
                                     <span className='hd__nav__link__desc font-normal text-xs'>Experience checkout yourself</span>
@@ -60,7 +60,7 @@ const Header = () => {
                     <ul className="hd__nav__dropdown">
                         <li className="hd__nav__dropdown__item h-1/3 w-full">
                             <Link to='/store' className='hd__nav__link flex justify-start items-start py-2.5 px-2.5'>
-                                <div className='mr-2.5'><FaShopify className='hd__nav__link__icon w-10 h-10' /></div>
+                                <div className='mr-2.5 bg-green-100 rounded-xl p-2'><FaShopify className='hd__nav__link__icon w-6 h-6' /></div>
                                 <span className="hd__nav__link__info flex flex-col justify-start items-stretch flex-auto">
                                     <span className='hd__nav__link__title font-semibold mb-1.5'>Store</span>
                                     <span className='hd__nav__link__desc font-normal text-xs'>Start selling online.</span>
@@ -69,7 +69,7 @@ const Header = () => {
                         </li>
                         <li className="hd__nav__dropdown__item h-1/3 w-full">
                             <Link to='/payment-links' className='hd__nav__link flex justify-start items-start py-2.5 px-2.5'>
-                                <div className="mr-2.5"><FaClipboardCheck className='hd__nav__link__icon w-10 h-10' /></div>
+                                <div className="mr-2.5 bg-pink-100 rounded-xl p-2"><FaClipboardCheck className='hd__nav__link__icon w-6 h-6' /></div>
                                 <span className="hd__nav__link__info flex flex-col justify-start items-stretch flex-auto">
                                     <span className='hd__nav__link__title font-semibold mb-1.5'>Payment Links</span>
                                     <span className='hd__nav__link__desc font-normal text-xs'>Accept payments without writing code.</span>
@@ -78,7 +78,7 @@ const Header = () => {
                         </li>
                         <li className="hd__nav__dropdown__item h-1/3 w-full">
                             <Link to='/invoices' className='hd__nav__link flex justify-start items-start py-2.5 px-2.5'>
-                                <div className="mr-2.5"><FaScroll className='hd__nav__link__icon w-10 h-10' /></div>
+                                <div className="mr-2.5 bg-pink-100 rounded-xl p-2"><FaScroll className='hd__nav__link__icon w-6 h-6' /></div>
                                 <span className="hd__nav__link__info flex flex-col justify-start items-stretch flex-auto">
                                     <span className='hd__nav__link__title font-semibold mb-1.5'>Invoices</span>
                                     <span className='hd__nav__link__desc font-normal text-xs'>Create professional invoices</span>
