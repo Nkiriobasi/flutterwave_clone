@@ -8,7 +8,7 @@ import { images } from '../../constants';
 
 
 const Footer = () => {
-
+    // toggle isOpen state variable
     const [isOpen1, setIsOpen1] = useState("false");
     const [isOpen2, setIsOpen2] = useState("false");
     const [isOpen3, setIsOpen3] = useState("false");
@@ -19,30 +19,30 @@ const Footer = () => {
     
     // toggler for location inserting location
     const [isVisible, setIsVisible] = useState("false");
-    // const [isActive, setIsActive] = useState("false");
+    
     
 
     
     // toggle isOpen state variable
-    const handleClick1 = event => {
+    const handleClick1 = () => {
         setIsOpen1(active => !active);
     };
-    const handleClick2 = event => {
+    const handleClick2 = () => {
         setIsOpen2(active => !active);
     };
-    const handleClick3 = event => {
+    const handleClick3 = () => {
         setIsOpen3(active => !active);
     }
-    const handleClick4 = event => {
+    const handleClick4 = () => {
         setIsOpen4(active => !active);
     }
-    const handleClick5 = event => {
+    const handleClick5 = () => {
         setIsOpen5(active => !active);
     }
-    const handleClick6 = event => {
+    const handleClick6 = () => {
         setIsOpen6(active => !active);
     }
-    const handleClick7 = event => {
+    const handleClick7 = () => {
         setIsOpen7(active => !active);
     }
 
@@ -51,9 +51,7 @@ const Footer = () => {
     const handleVisibleClick = event => {
         setIsVisible(active => !active);
     }
-    // const handleActiveClick = event => {
-    //     setIsActive(active => !active);
-    // }
+    
     
 
 
@@ -62,7 +60,7 @@ const Footer = () => {
         <div className="wrapper">
             {/* ft-group1 */}
             <div className="ft__group">
-                <div className={`ft__section ${isOpen1 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen1 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head">
                         <h6 className="ft__section__title">Products</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick1} />
@@ -79,7 +77,7 @@ const Footer = () => {
                         <Link to="/faas" className="ft__nav__link">FaaS</Link>
                     </nav>
                 </div>
-                <div className={`ft__section ${isOpen2 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen2 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head">
                         <h6 className="ft__section__title">Resources</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick2} />
@@ -92,7 +90,7 @@ const Footer = () => {
                         <Link to="/flutterwave-dispute" className="ft__nav__link">Why you got charged</Link>
                     </nav>
                 </div>
-                <div className={`ft__section ${isOpen3 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen3 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head">
                         <h6 className="ft__section__title">Developers</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick3} />
@@ -103,7 +101,7 @@ const Footer = () => {
                         <Link to="/flutterwave-status" className="ft__nav__link ft__nav__link--status">API Status</Link>
                     </nav>
                 </div>
-                <div className={`ft__section ${isOpen4 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen4 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head">
                         <h6 className="ft__section__title">Flutterwave</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick4} />
@@ -118,7 +116,7 @@ const Footer = () => {
                         <Link to="/send" className="ft__nav__link">Send</Link>
                     </nav>
                 </div>
-                <div className={`ft__section ${isOpen5 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen5 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head">
                         <h6 className="ft__section__title">Contact</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick5} />
@@ -142,7 +140,7 @@ const Footer = () => {
                             <FaAngleDown className='location__toggler__icon' />
                         </button>
 
-                        <div className={`location__dropdown ${isVisible ? 'visible' : ''}`}>
+                        <div className={`location__dropdown ${isVisible ? '' : 'visible'}`}>
                             <ul className="location__dropdown-list">
                                 <li className="location__dropdown-item">
                                     <button className='country'>
@@ -238,7 +236,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`ft__section ${isOpen6 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen6 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head mobile-only">
                         <h6 className="ft__section__title">Connect</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick6} />
@@ -259,7 +257,7 @@ const Footer = () => {
                 <div className="ft__section">
                     <p className="ft__text">© Flutterwave</p>
                 </div>
-                <div className={`ft__section ${isOpen7 ?  'is-open' : ''}`}>
+                <div className={`ft__section ${isOpen7 ?  '' : 'is-open'}`}>
                     <div className="ft__section__head mobile-only">
                         <h6 className="ft__section__title">Legal</h6>
                         <FaAngleDown className='ft__section__icon' onClick={handleClick7} />
