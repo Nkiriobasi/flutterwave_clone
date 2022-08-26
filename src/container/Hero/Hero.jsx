@@ -19,6 +19,9 @@ const Hero = () => {
 
           <div className="hero__ctas flex items-center justify-start">
             <div className="hero__cta">
+              <Link to='/signup' className='btn btn-primary btn-md mr-5'>
+                <span className="btn__label">Create a free account</span>
+              </Link>
               <Link to='/contact-sales' className='btn btn-secondary btn-md'>
                 <span className="btn__label">Contact Sales</span>
               </Link>
