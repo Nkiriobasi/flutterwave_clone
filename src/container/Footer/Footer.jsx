@@ -134,7 +134,7 @@ const Footer = () => {
             <div className="ft__group ft__group-alt">
                 <div className="ft__section">
                     <div className="location">
-                        <button className="location__toggler" onClick={handleVisibleClick}>
+                        <button className="location__toggler" onClick={handleVisibleClick} onBlur={() => setIsVisible(true)}>
                             <img src={images.ng} alt="Nigeria flag" className="location__flag" />
                             <span className="location__name">Nigeria</span>
                             <FaAngleDown className='location__toggler__icon' />
